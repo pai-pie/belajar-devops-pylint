@@ -1,6 +1,8 @@
-def x(a,b):
-    c=a+b
-    print(c)
-    return c
+def add_numbers(first_number, second_number):
+    """Add two numbers and return the result."""
+    result = first_number + second_number
+    print(result)
+    return result
 
-x(1,2)
+
+add_numbers(1, 2)
