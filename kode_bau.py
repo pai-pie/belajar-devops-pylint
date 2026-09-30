@@ -1,9 +1,12 @@
-def calculate_result(a, b, c, e, f):
-    """Calculate the result based on the given conditions."""
-    if a and not b and c is None:
+"""Example of a refactored code with improved readability."""
+
+
+def calculate_result(first_value, second_value, third_value, values, number):
+    """Calculate a result based on the given conditions."""
+    if first_value and not second_value and third_value is None:
         try:
-            result = e[0] + f + 1
-            print(a + b)
+            result = values[0] + number + 1
+            print(first_value + second_value)
             return result
         except (IndexError, TypeError):
             return None

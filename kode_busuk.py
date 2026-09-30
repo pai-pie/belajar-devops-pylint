@@ -1,3 +1,6 @@
+"""Example of a simple function with improved readability."""
+
+
 def add_numbers(first_number, second_number):
     """Add two numbers and return the result."""
     result = first_number + second_number
